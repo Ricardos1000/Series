@@ -1,0 +1,4 @@
+D:\Projetos\Series\Series\obj\Debug\netcoreapp2.1\Series.csprojAssemblyReference.cache
+D:\Projetos\Series\Series\obj\Debug\netcoreapp2.1\Series.csproj.CoreCompileInputs.cache
+D:\Projetos\Series\Series\obj\Debug\netcoreapp2.1\Series.AssemblyInfoInputs.cache
+D:\Projetos\Series\Series\obj\Debug\netcoreapp2.1\Series.AssemblyInfo.cs
