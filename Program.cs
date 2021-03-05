@@ -76,7 +76,7 @@ namespace Series
             string entradaDescricao = Console.ReadLine();
 
             Series novaSerie = new Series(id: repositorio.ProximoId(),
-                                          genero: (Genero)entradaGenero),
+                                          genero: (Genero)entradaGenero,
                                           titulo: entradaTitulo,
                                           ano: entradaAno,
                                           descricao: entradaDescricao);
@@ -99,10 +99,10 @@ namespace Series
             string entradaTitulo = Console.ReadLine();
 
             Series atualizaSerie = new Series(id: indiceSerie,
-                                         genero: (Genero)entradaGenero),
+                                         genero: (Genero)entradaGenero,
                                          titulo: entradaTitulo,
                                           ano: entradaAno,
-                                          descricao: entradaDescricao;
+                                          descricao: entradaDescricao);
             repositorio.Atualizar(indiceSerie, atualizaSerie);
         }
 
